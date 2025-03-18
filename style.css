@@ -323,10 +323,12 @@ form input, form textarea {
     color: #333;
     padding: 1.25rem 0;
     position: relative;
-    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-x: auto;  /* Enables horizontal scrolling */
+    white-space: nowrap; /* Prevents wrapping to new lines */
+    -webkit-overflow-scrolling: touch;
 }
 
 /* Style the list */
@@ -337,6 +339,8 @@ form input, form textarea {
     margin: 0;
     justify-items: center;
     align-items: center;
+    list-style: none;
+    flex-wrap: nowrap;
 }
 
 /* Style for individual tech items */
@@ -347,6 +351,7 @@ form input, form textarea {
     padding: 0.625rem;
     font-size: 1.5rem;
     justify-content: center;
+    flex: 0 0 auto;
 }
 
 /* Style the icons */
@@ -405,10 +410,12 @@ form input, form textarea {
     color: #333;
     padding: 1.25rem 0;
     position: relative;
-    overflow: hidden;
+    overflow-x: auto;
     justify-content: center;
     align-items: center;
     display: flex;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
 }
 
 .uni-scroll ul {
@@ -419,6 +426,8 @@ form input, form textarea {
     justify-items: center;
     align-items: center;
     width: 100%;
+    list-style: none;
+    flex-wrap: nowrap;
 }
 
 .uni-scroll li {
@@ -428,6 +437,7 @@ form input, form textarea {
     padding: 0.625rem;
     font-size: 1.5rem;
     justify-content: center;
+    flex: 0 0 auto;
 }
 
 .uni-scroll img {
@@ -436,6 +446,11 @@ form input, form textarea {
     object-fit: contain;
     align-items: center;
     display: block;
+}
+
+.uni-scroll::-webkit-scrollbar, 
+.tech-scroll::-webkit-scrollbar {
+    display: none;
 }
 
 .greyscale img {
@@ -510,3 +525,4 @@ form input, form textarea {
         justify-content: center;
     }
 }
+
