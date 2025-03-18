@@ -329,6 +329,7 @@ form input, form textarea {
     overflow-x: auto;  /* Enables horizontal scrolling */
     white-space: nowrap; /* Prevents wrapping to new lines */
     -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
 }
 
 /* Style the list */
@@ -416,6 +417,7 @@ form input, form textarea {
     display: flex;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
 }
 
 .uni-scroll ul {
