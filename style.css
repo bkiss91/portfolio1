@@ -492,4 +492,21 @@ form input, form textarea {
       font-size: 0.75rem;
     }
   }
+
+@media only screen and (max-width: 480px) {
+    body {
+      font-size: 0.75rem;
+    }
+  }
   
+@media (max-width: 768px) { /* Adjust breakpoint as needed */
+    .uni-scroll ul {
+        flex-direction: column; /* Stack images vertically */
+        align-items: center; /* Center images */
+    }
+
+    .uni-scroll li {
+        width: 100%; /* Ensure full width */
+        justify-content: center;
+    }
+}
