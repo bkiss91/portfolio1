@@ -292,6 +292,7 @@ form input, form textarea {
 
 .logo {
     font-size: 1.25rem;
+    display: flexbox;
 }
 
 #about p {
@@ -324,9 +325,10 @@ form input, form textarea {
     padding: 1.25rem 0;
     position: relative;
     overflow: hidden;
-    display: flex;
+    display: flexbox;
     justify-content: center;
     align-items: center;
+    display: flexbox;
 }
 
 /* Style the list */
@@ -406,7 +408,7 @@ form input, form textarea {
     padding: 1.25rem 0;
     position: relative;
     overflow: hidden;
-    display: flex;
+    display: flexbox;
     justify-content: center;
     align-items: center;
 }
