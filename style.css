@@ -408,6 +408,7 @@ form input, form textarea {
     overflow: hidden;
     justify-content: center;
     align-items: center;
+    display: flex;
 }
 
 .uni-scroll ul {
@@ -417,6 +418,7 @@ form input, form textarea {
     margin: 0;
     justify-items: center;
     align-items: center;
+    width: 100%;
 }
 
 .uni-scroll li {
@@ -433,6 +435,7 @@ form input, form textarea {
     height: auto;
     object-fit: contain;
     align-items: center;
+    display: block;
 }
 
 .greyscale img {
