@@ -52,8 +52,9 @@ nav {
     padding: 0.5rem 1rem;
     color: white;
     font-size: 1.25rem;
-    position: fixed;
+    position: sticky;
     width: 100%;
+    top: 0;
     z-index: 1000;
     font-weight: lighter;
     margin: auto;
