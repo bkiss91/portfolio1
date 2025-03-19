@@ -324,6 +324,7 @@ form input, form textarea {
     padding: 1.25rem 0;
     position: relative;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     overflow-x: auto;  /* Enables horizontal scrolling */
@@ -336,6 +337,7 @@ form input, form textarea {
 .tech-scroll ul {
     display: flex;
     list-style: none;
+    flex-wrap: wrap;
     padding: 0;
     margin: 0;
     justify-items: center;
@@ -347,6 +349,7 @@ form input, form textarea {
 /* Style for individual tech items */
 .tech-scroll li {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 1.875rem;
     padding: 0.625rem;
@@ -359,6 +362,7 @@ form input, form textarea {
 .tech-scroll li i {
     font-size: 3.125rem;
     color: #333;
+    flex-wrap: wrap;
 }
 
 .hero {
