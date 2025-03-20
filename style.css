@@ -87,6 +87,7 @@ nav ul li {
     align-items: left;
     font-size: 1.125rem;
     padding: 0.5rem 1rem;
+    margin: 0;
 }
 
 nav ul li a {
@@ -106,6 +107,7 @@ nav li a, .dropbtn {
 li a:hover, .dropdown:hover .dropbtn {
     background-color: #818089;
     width: auto;
+    padding: 0.875rem 1rem;
 }
 
 li.dropdown {
