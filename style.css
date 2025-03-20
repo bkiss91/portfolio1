@@ -62,7 +62,7 @@ nav {
     z-index: 100;
     font-weight: lighter;
     margin: auto;
-    min-width: auto;
+    min-width: 100%;
 }
 
 .nav::-webkit-scrollbar {
@@ -117,7 +117,7 @@ li.dropdown {
   min-width: 10rem;
   box-shadow: 0rem 0.5rem 1rem rgba(0,0,0,0.2);
   z-index: 1000;
-    width: auto;
+  width: auto;
 }
 
 .dropdown-content a {
