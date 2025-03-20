@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background: white;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -545,6 +546,30 @@ form input, form textarea {
     .uni-scroll li {
         width: 100%; /* Ensure full width */
         justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Ensures navbar items don't overflow on smaller screens */
+    .nav {
+        flex-direction: column; /* Stack the navbar items vertically */
+        align-items: flex-start; /* Align the items to the left */
+        width: 100%; /* Ensure the navbar takes up the full width */
+    }
+
+    .dropdown-content {
+        position: static; /* Position the dropdown relative to the navbar */
+        width: 100%; /* Make dropdown full width on mobile */
+        box-shadow: none; /* Remove the box shadow */
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block; /* Show the dropdown on hover on mobile as well */
+    }
+
+    /* Optional: Make the navbar links more spaced out on mobile */
+    .nav a {
+        padding: 10px 20px; /* Add some padding for better clickability */
     }
 }
 
