@@ -109,14 +109,13 @@ li.dropdown {
 
 .dropdown-content {
   display: none;
-  position: absolute;
+  position: relative;
   background-color: #f9f9f9;
   min-width: 10rem;
   box-shadow: 0rem 0.5rem 1rem rgba(0,0,0,0.2);
   z-index: 1000;
   top: 100%; 
-  left: 0;
-  width: auto; 
+  left: 0; 
 }
 
 .dropdown-content a {
