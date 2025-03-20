@@ -121,6 +121,24 @@ display: none;
       display: block;
 }
 
+.hero {
+    width: 100vw;
+    height: 100vh; /* Full viewport height */
+    background: url("banner.jpg") no-repeat center cover;  /* Image fills the screen */
+    display: flex;
+    flex-direction: column; /* Keeps text stacked */
+    align-items: center; /* Centers horizontally */
+    justify-content: center; /* Centers vertically */
+    text-align: center;
+    color: rgba(42, 40, 40, 0.127);
+    position: relative; /* Ensures proper positioning */
+    padding-top: 5rem; /* Pushes content below navbar */
+    opacity: 80%;
+    color: white;
+    overflow: hidden;
+    object-fit: cover;
+   
+}
 
 .skeuomorphic {
     background: transparent;
@@ -360,25 +378,6 @@ form input, form textarea {
 .tech-scroll li i {
     font-size: 3.125rem;
     color: #333;
-}
-
-.hero {
-    width: 100vw;
-    height: 100vh; /* Full viewport height */
-    background: url("banner.jpg") no-repeat center center/cover;  /* Image fills the screen */
-    display: flex;
-    flex-direction: column; /* Keeps text stacked */
-    align-items: center; /* Centers horizontally */
-    justify-content: center; /* Centers vertically */
-    text-align: center;
-    color: rgba(42, 40, 40, 0.127);
-    position: relative; /* Ensures proper positioning */
-    padding-top: 5rem; /* Pushes content below navbar */
-    opacity: 80%;
-    color: white;
-    overflow: hidden;
-    object-fit: cover;
-   
 }
 
 /* Remove unwanted spacing */
