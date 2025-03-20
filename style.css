@@ -92,7 +92,7 @@ nav li a:hover {
 
 /* Dropdown menu */
 li.dropdown {
-    position: relative;
+    position: absolute;
 }
 
 /* Ensure dropdown content is correctly positioned and opens vertically */
