@@ -5,6 +5,7 @@ body {
     padding: 0;
     background: (148, 147, 147, 255);
     color: #333;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -375,10 +376,9 @@ form input, form textarea {
     padding-top: 5rem; /* Pushes content below navbar */
     opacity: 80%;
     color: white;
+    overflow: hidden;
    
 }
-
-
 
 /* Remove unwanted spacing */
 .hero * {
