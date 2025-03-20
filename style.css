@@ -124,7 +124,7 @@ display: none;
 .hero {
     width: 100vw;
     height: 100vh; /* Full viewport height */
-    background: url("banner.jpg") no-repeat center cover;  /* Image fills the screen */
+    background: url("banner.jpg") no-repeat center center/cover;  /* Image fills the screen */
     display: flex;
     flex-direction: column; /* Keeps text stacked */
     align-items: center; /* Centers horizontally */
