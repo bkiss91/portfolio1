@@ -3,7 +3,7 @@ body {
     font-family: Oxygen, Helvetica, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background: (148, 147, 147, 255);
+    background: #949393;
     color: #333;
 }
 
@@ -108,16 +108,12 @@ li.dropdown {
 
 
 .dropdown-content {
-  display: block !important;
+  display: none;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 10rem;
   box-shadow: 0rem 0.5rem 1rem rgba(0,0,0,0.2);
   z-index: 999;
-}
-
-* {
-    overflow: visible !important;
 }
 
 .dropdown-content a {
