@@ -5,6 +5,8 @@ body {
     padding: 0;
     background: white;
     overflow-x: auto;
+    height: 100%;
+    flex-direction: column;
 }
 
 h1 {
@@ -557,6 +559,24 @@ form input, form textarea {
         width: 100%; /* Ensure the navbar takes up the full width */
     }
 
+        .nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav li {
+        width: 100%;
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    .nav a {
+        display: block;
+        padding: 10px;
+        font-size: 1.2rem;
+    }
+}
+
     .dropdown-content {
         position: static; /* Position the dropdown relative to the navbar */
         width: 100%; /* Make dropdown full width on mobile */
@@ -573,3 +593,5 @@ form input, form textarea {
     }
 }
 
+
+    
