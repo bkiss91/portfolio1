@@ -45,6 +45,7 @@ nav {
     flex-wrap: nowrap;
     justify-content: space-between;
     overflow-x: auto;
+    overflow: visible !important;
     -webkit-overflow-scrolling: touch;
     white-space: nowrap;
     align-items: center;
@@ -112,6 +113,8 @@ li.dropdown {
   min-width: 10rem;
   box-shadow: 0rem 0.5rem 1rem rgba(0,0,0,0.2);
   z-index: 999;
+  top: 100%; 
+  left: 0;
 }
 
 .dropdown-content a {
