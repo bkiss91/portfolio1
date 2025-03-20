@@ -62,7 +62,7 @@ nav {
     z-index: 100;
     font-weight: lighter;
     margin: auto;
-    width: 100%;
+    min-width: 100%;
 }
 
 .nav::-webkit-scrollbar {
