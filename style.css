@@ -122,6 +122,7 @@ li.dropdown {
   min-width: 10rem;
   box-shadow: 0rem 0.5rem 1rem rgba(0,0,0,0.2);
   z-index: 1000;
+    left: 0;
 }
 
 .dropdown-content a {
