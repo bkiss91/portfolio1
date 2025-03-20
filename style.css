@@ -54,6 +54,7 @@ nav {
     z-index: 1000;
     font-weight: lighter;
     margin: auto;
+    min-width: 100%;
 }
 
 nav ul {
