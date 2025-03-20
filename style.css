@@ -92,6 +92,7 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    width: auto;
 }
 
 nav li a, .dropbtn {
