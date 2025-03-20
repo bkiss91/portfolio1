@@ -136,6 +136,24 @@ li.dropdown {
       display: block;
 }
 
+/* Hamburger button */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 30px;
+    height: 25px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.hamburger .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+}
 
 .skeuomorphic {
     background: transparent;
@@ -593,5 +611,38 @@ form input, form textarea {
     }
 }
 
+@media (max-width: 768px) {
+    /* Show hamburger button */
+    .hamburger {
+        display: flex;
+    }
+
+    /* Hide the navigation links initially */
+    .nav {
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background: #333;
+        width: 100%;
+        text-align: center;
+        flex-direction: column;
+        padding: 1rem;
+        z-index: 1000;
+    }
+
+    /* When hamburger menu is clicked, show nav links */
+    .nav.active {
+        display: flex;
+    }
+
+    .nav li {
+        margin: 1rem 0;
+    }
+
+    .nav li a {
+        font-size: 1.25rem;
+    }
+}
 
     
