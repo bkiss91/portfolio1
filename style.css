@@ -92,13 +92,13 @@ nav li a:hover {
 
 /* Dropdown menu */
 li.dropdown {
-    position: absolute;
+    position: relative;
 }
 
 /* Ensure dropdown content is correctly positioned and opens vertically */
 .dropdown-content {
     display: none;
-    position: absolute;
+    position: relative;
     background-color: #f9f9f9;
     min-width: 10rem;
     box-shadow: 0rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
@@ -120,7 +120,7 @@ li.dropdown {
 
 /* Show dropdown on hover */
 .dropdown:hover .dropdown-content {
-    display: block;
+    display: list;
 }
 
 .skeuomorphic {
