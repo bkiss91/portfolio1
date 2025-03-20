@@ -93,7 +93,7 @@ nav li a:hover {
 
 /* Dropdown menu */
 li.dropdown {
-    position: relative;
+    position: absolute;
 }
 
 /* Ensure dropdown content is correctly positioned and opens vertically */
@@ -113,8 +113,6 @@ li.dropdown {
     color: black;
     padding: 0.75rem 1rem;
     text-decoration: none;
-    display: block;
-    white-space: nowrap; /* Ensures no line breaks and consistent size */
 }
 
 /* Hover effect for dropdown items */
