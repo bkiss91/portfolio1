@@ -461,7 +461,8 @@ form input, form textarea {
 
 .uni-scroll img {
     width: 15.625rem; /* Adjust size */
-    height: auto;
+    height: 6.25rem;
+    width: 9.375rem;
     object-fit: contain;
     align-items: center;
     display: block;
