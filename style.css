@@ -377,6 +377,7 @@ form input, form textarea {
     opacity: 80%;
     color: white;
     overflow: hidden;
+    object-fit: cover;
    
 }
 
