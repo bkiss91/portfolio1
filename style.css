@@ -55,6 +55,8 @@ nav {
     font-weight: lighter;
     margin: auto;
     min-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 nav ul {
