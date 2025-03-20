@@ -137,6 +137,7 @@ display: none;
     color: white;
     overflow: hidden;
     object-fit: cover;
+    z-index: 1;
    
 }
 
